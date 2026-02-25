@@ -11,7 +11,7 @@ const emotionListData = [
   },
   {
     emotionId: 2,
-    emotionName: "나쁨",
+    emotionName: "좋음",
   },
   {
     emotionId: 3,
@@ -19,7 +19,11 @@ const emotionListData = [
   },
   {
     emotionId: 4,
-    emotionName: "화남",
+    emotionName: "나쁨",
+  },
+  {
+    emotionId: 5,
+    emotionName: "끔찍함",
   },
 ];
 

@@ -17,19 +17,23 @@
     width: 30%;
 }
 .img-section.bg-1 {
-    background-color: #FFDC33;
+    background-color: rgb(100, 201, 100);
 }
 
 .img-section.bg-2 {
-    background-color: #6766FF;
+    background-color: rgb(157, 215, 114);
 }
 
 .img-section.bg-3 {
-    background-color: #2EE5A9;
+    background-color: rgb(253, 206, 23);
 }
 
 .img-section.bg-4 {
-    background-color: #FF9966;
+    background-color: rgb(253, 132, 70);
+}
+
+.img-section.bg-5 {
+    background-color: rgb(253, 86, 95);
 }
 
 .info-section {
