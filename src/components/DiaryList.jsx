@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./DiaryList.css"
-import DiaryItem from './DiatyItem'
+import DiaryItem from './DiaryItem'
 import Button from './Button'
 import { useNavigate } from 'react-router-dom'
 
@@ -21,6 +21,7 @@ const DiaryList = ({ data }) => {
       }
     })
   }
+
   const sortData = getSortedData()
 
   return (
@@ -31,15 +32,13 @@ const DiaryList = ({ data }) => {
           <option value={"oldest"}>오래된순</option>
         </select>
         <Button
-        onClick={()=>nav('/new')}
-        text={"새 일기 쓰기"} type={"POSITIVE"} />
+          onClick={() => nav('/new')}
+          text={"새 일기 쓰기"} type={"POSITIVE"} />
       </div>
       <div className="list-wrapper">
         {sortData.map((item) => (
-
-          <DiaryItem key={item.id} {...item}/>
+          <DiaryItem key={item.id} {...item} />
         ))}
-
       </div>
     </div>
   )

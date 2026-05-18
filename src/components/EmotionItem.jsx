@@ -9,7 +9,6 @@ const EmotionItem = ({ emotionId, emotionName, isSelected, onClick }) => {
        >
         <img src={getEmotionImage(emotionId)} alt={emotionName} />
         <div className="emotion_name">{emotionName}</div>
-        <div>{emotionName}</div>
     </div>
   );
 };

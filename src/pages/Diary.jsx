@@ -4,15 +4,7 @@ import Button from "../components/Button";
 import Viewer from "../components/Viewer";
 import { useContext, useEffect, useState } from "react";
 import { DiaryStateContext } from "../App";
-
-const getStringDate = (targetDate) => {
-  let year = targetDate.getFullYear();
-  let month = targetDate.getMonth() + 1;
-  let date = targetDate.getDate();
-  if (month < 10) month = `0${month}`;
-  if (date < 10) date = `0${date}`;
-  return `${year}-${month}-${date}`;
-};
+import { getStringedDate } from "../util/getStringedDate";
 
 const Diary = () => {
   const params = useParams();
@@ -38,7 +30,7 @@ const Diary = () => {
   }
 
   const { createdDate, emotionId, content } = curDiaryItem;
-  const title = `${getStringDate(new Date(Number(createdDate)))} 기록`;
+  const title = `${getStringedDate(new Date(Number(createdDate)))} 기록`;
 
   return (
     <div>
@@ -54,4 +46,4 @@ const Diary = () => {
   );
 };
 
-export default Diary
+export default Diary;
