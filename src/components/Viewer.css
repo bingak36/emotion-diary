@@ -39,6 +39,12 @@
     background-color: rgb(253, 86, 95);
 }
 
+.emotion-img-wrapper img {
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+
 .content-wrapper{
     background-color: #fafafa;
     padding:20px;
