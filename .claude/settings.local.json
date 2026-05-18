@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Remove-Item \"C:\\\\Users\\\\qlsl9\\\\OneDrive\\\\문서\\\\teminal\\\\emotion-diary\\\\src\\\\components\\\\DiatyItem.jsx\" -Force)",
+      "Bash(Remove-Item \"C:\\\\Users\\\\qlsl9\\\\OneDrive\\\\문서\\\\teminal\\\\emotion-diary\\\\src\\\\components\\\\DiatyList.jsx\" -Force)"
+    ]
+  }
+}

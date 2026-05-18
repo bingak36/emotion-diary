@@ -1,14 +1,8 @@
-import React, {useEffect} from 'react'
+import { useEffect } from 'react'
 
 const useTItle = (title) => {
   useEffect(() => {
-
-    const $title = document.getElementsByTagName
-    ('title')[]
-    
-
-
-
+    document.title = title
   }, [title])
 }
 

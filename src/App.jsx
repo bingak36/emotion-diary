@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 import Diary from './pages/Diary'
 import Edit from './pages/Edit'
 import Home from './pages/Home'
-import Notfound from './pages/Notfound'
+import Notfound from './pages/NotFound'
 import New from './pages/New'
 
 

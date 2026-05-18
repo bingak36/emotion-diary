@@ -5,14 +5,18 @@
     border-bottom: 1px solid #eee;
 }
 .img-section {
-    min-width: 120px;
+    min-width: 80px;
     height: 80px;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .img-section img {
-    width: 50%;
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
 }
 .img-section.bg-1 {
     background-color: rgb(100, 201, 100);
